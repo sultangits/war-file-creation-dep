@@ -18,7 +18,7 @@ node("master")
       archive 'target/*.war'
    }
    stage('deploy') {
-   		sh "**/*.war /opt/tomcat/webapps"
+   		sh "cp -p **/*.war /opt/tomcat/webapps"
    }
    	  
 }
