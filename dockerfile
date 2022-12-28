@@ -1,3 +1,3 @@
 FROM tomcat
-RUN apt-get update -y
-RUN apt-get install docker.io -y
+RUN sudo update -y
+RUN sudo install docker.io -y
